@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Untrace",
+    "slug": "untrace-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0f0b",
+    "splash": { "image": "./assets/splash-icon.png", "backgroundColor": "#0a0f0b", "resizeMode": "contain" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "network.untrace.mobile" },
+    "android": {
+      "package": "network.untrace.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0f0b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": { "favicon": "./assets/favicon.png" }
+  }
+}

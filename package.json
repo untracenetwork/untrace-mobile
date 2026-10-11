@@ -1,0 +1,25 @@
+{
+  "name": "untrace-mobile",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "fetch-core": "node scripts/fetch-core.mjs aarch64-apple-ios aarch64-apple-ios-sim aarch64-linux-android x86_64-linux-android"
+  },
+  "dependencies": {
+    "expo": "~57.0.27",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  }
+}

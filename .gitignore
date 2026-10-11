@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+web-build/
+vendor/
+ios/
+android/
+*.log
+.env*

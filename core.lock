@@ -1,0 +1,13 @@
+# Compiled Untrace core this app is built on. Binaries only, verified by
+# scripts/fetch-core.mjs (SHA-256 below + minisign key 86DD345E80D572CF).
+core_version = "0.1.0"
+base_url = "https://pub-86015f93c6f84bc5a656dd97220e574c.r2.dev/core"
+signing_key = "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDg2REQzNDVFODBENTcyQ0YKUldUUGN0V0FYalRkaHQ2V2VvcForWGZLMWVhSWdET1BOZ1hJSHB3MFA1K1dQcEYxWHZBVWxJdHEK"
+sha256.aarch64-apple-darwin = "0f723500764a8a4a072ce6aa3b3e441d2460ddc39fa832bdfc152fd0fbba599f"
+sha256.aarch64-apple-ios-sim = "a98a8550b84896f543e8611c17e579f33090403ba5abb263a2e7d46a2e7fa9a8"
+sha256.aarch64-apple-ios = "e813cb7d9e75e69b128e51736109ceb696456cbd8b13a577bfe3bdfaecb595af"
+sha256.aarch64-linux-android = "761a3f8c0cd2349ba8d618fccb4dcc4530f4dbd812053034224b31544eb389e7"
+sha256.x86_64-apple-darwin = "c54c13a2d0ed4c2a59e38ecf1c9d8949af42466615f7371068ee5937ef7a9411"
+sha256.x86_64-linux-android = "3b00d6263ca8fad92506017caeac77b629b195f91ed1f45669fe174469130e56"
+sha256.x86_64-pc-windows-msvc = "23999c4726503327c418603e18142edab02fffa92b6223bbfcc8ada8fe410457"
+sha256.x86_64-unknown-linux-gnu = "79399510614d1ed72924bad786b3064fdb7a7d9016fa46cb70085632726e7ca3"
