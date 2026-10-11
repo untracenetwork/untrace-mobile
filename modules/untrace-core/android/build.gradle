@@ -1,0 +1,20 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'network.untrace.core'
+version = '0.2.0'
+
+android {
+  namespace "network.untrace.core"
+  defaultConfig {
+    versionCode 2
+    versionName "0.2.0"
+  }
+  // src/main/jniLibs/<abi>/libuntrace_core.so is placed at prebuild by
+  // scripts/place-core.mjs from the verified core binary (gitignored).
+  lintOptions {
+    abortOnError false
+  }
+}

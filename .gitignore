@@ -3,7 +3,9 @@ node_modules/
 dist/
 web-build/
 vendor/
-ios/
-android/
+/ios/
+/android/
 *.log
 .env*
+modules/untrace-core/ios/UntraceCoreFFI.xcframework/
+modules/untrace-core/android/src/main/jniLibs/

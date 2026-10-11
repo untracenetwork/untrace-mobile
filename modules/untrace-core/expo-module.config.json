@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["UntraceCoreModule"]
+  },
+  "android": {
+    "modules": ["network.untrace.core.UntraceCoreModule"]
+  }
+}
